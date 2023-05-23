@@ -1,0 +1,26 @@
+.border{
+    -fx-background-color: #fff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 8,0,0,0);
+    -fx-background-radius: 6px;
+}
+
+.btn{
+    -fx-background-color: #24252b;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);
+}
+
+.btn:hover{
+    -fx-background-color: #67b9b6;
+}
+
+.btn-nocolor {
+	-fx-background-radius: 6px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);
+}
